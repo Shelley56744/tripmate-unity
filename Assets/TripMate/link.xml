@@ -1,0 +1,13 @@
+<!--
+  WebGL 等平台輸出時，Unity 會把程式沒有直接用到的引擎類別拿掉（code stripping）。
+  遊戲用 GameObject.CreatePrimitive 在執行時產生球體、膠囊等形狀，Unity 看不出需要這些碰撞元件，
+  沒保留的話瀏覽器會一直出現「Can't add component because class 'SphereCollider' doesn't exist」。
+-->
+<linker>
+  <assembly fullname="UnityEngine.PhysicsModule">
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+  </assembly>
+</linker>

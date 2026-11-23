@@ -1,0 +1,56 @@
+# ===== Unity 自動產生的資料夾（每台電腦開專案時會重建，不用上傳）=====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# ===== 輸出檔（WebGL 版另外放在 gh-pages 分支）=====
+/[Bb]uild/
+/[Bb]uilds/
+/[Bb]uild[Ss]ettings/
+*.apk
+*.aab
+*.unitypackage
+*.app
+build-*.provenance.json
+
+# ===== IDE／編輯器暫存 =====
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# ===== macOS =====
+.DS_Store
+._*
+
+# ===== 本機參考素材與舊版筆記（不公開）=====
+# 原始 GPT 概念圖、問卷、資料集、舊版 zip；挑選過的概念圖放在 media/concept/
+/tripmate立體示意圖/
+/tripmate立體示意圖.meta
+# 舊版說明，內容已整理進 README.md
+/TripMate_README.md
